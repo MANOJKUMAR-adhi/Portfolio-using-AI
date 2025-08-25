@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manojkumar A - Java FullStack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo2.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">ManojKumar's Portfolio</span>
+            <div class="sharingan-tomoe"></div>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="ripple-effect active">Home</a>
+            <a href="#about" class="ripple-effect">About</a>
+            <a href="#skills" class="ripple-effect">Skills</a>
+            <a href="#projects" class="ripple-effect">Projects</a>
+            <a href="#resume" class="ripple-effect">Resume</a>
+            <a href="#contact" class="ripple-effect">Contact</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+         <!-- AI Assistant -->
+    <div class="chat-bot-container">
+        <div class="chat-bot-icon" id="chatBotIcon">
+            <div class="robot-head">
+                <div class="robot-face">
+                    <div class="robot-antenna-left"></div>
+                    <div class="robot-antenna-right"></div>
+                    <div class="robot-eye left"></div>
+                    <div class="robot-eye right"></div>
+                    <div class="robot-mouth"></div>
+                </div>
+            </div>
+            <div class="ai-label">Manoj's AI</div>
+        </div>
+        
+        <div class="chat-box" id="chatBox">
+            <div class="chat-header">
+                <div class="robot-head small">
+                    <div class="robot-face">
+                        <div class="robot-antenna-left"></div>
+                        <div class="robot-antenna-right"></div>
+                        <div class="robot-eye left"></div>
+                        <div class="robot-eye right"></div>
+                        <div class="robot-mouth"></div>
+                    </div>
+                </div>
+                <h3>Manoj's AI Assistant</h3>
+                <button class="close-btn" id="closeChatBtn">&times;</button>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    <p>Hello! I'm Manoj's AI Assistant. How can I help you today?</p>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Type your message...">
+                <button id="sendMessage">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="sharingan-bg"></div>
+        <div class="hero-content">
+            <h1><i>Hi, I'm Manojkumar A</i><h1>
+            <h2><pre><mark> Java FullStack Developer </mark></pre><h2>
+            <p class="uchiha-quote">"Like the Sharingan's ability to see through deception, I see through complex problems to find elegant solutions."</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="cta-primary ripple-effect">View My Work</a>
+                <a href="#contact" class="cta-secondary ripple-effect">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image scroll-fade-left">
+                <div class="image-placeholder sharingan-border">
+                    <img src="image.jpg" alt="Manojkumar A - Java Full Stack Web Developer" class="profile-image">
+                    <div class="mangekyo-pattern"></div>
+                </div>
+            </div>
+            <div class="about-text scroll-fade-right">
+                <p>Hi, I'm Manojkumar A. Motivated and fast-learning Engineering graduate with a Bachelor's degree in Electrical and Electronics Engineering.  I am a Java FullStack Developer ["FRESHER"]. Proficient in foundational programming language (JAVA) and basic Front-end technologies like (HTML, CSS) and Database Management systems like (MySQL). Like the precision of the Sharingan, I've completed real-world projects in web development with attention to detail.</p>
+                <p>Seeking a Full-Stack Developer role to contribute to building scalable Web applications and Websites and enhance Technical skills. Drawing inspiration from the Uchiha clan's dedication, I am a dedicated, passionate and hardworking person who wanted to shine in the passion what I choose. I have leadership skills to prove the talent, knowledge, and experience in my life.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">My Technical Arsenal</h2>
+        <div class="skills-container">
+            <div class="skills-intro scroll-fade-up">
+                <p>Like the evolution of the Sharingan, my skills continue to grow and adapt:</p><br>
+            </div>
+            <div class="skills-grid">
+                
+                <div class="skill-card sharingan-card ripple-effect">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-card sharingan-card ripple-effect">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card sharingan-card ripple-effect">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                    <p>[ Core Java & Advanced Java]</p>
+                </div>
+                <div class="skill-card sharingan-card ripple-effect">
+                    <i class="fas fa-database"></i>
+                    <h3>MySQL</h3>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2 class="section-title">Education</h2>
+        <div class="education-container">
+            <div class="education-card sharingan-card scroll-fade-up">
+                <div class="education-badge"></div>
+                <h3>Bachelor of Engineering (B.E)</h3>
+                <div class="education-details">
+                    <p class="college"><i class="fas fa-university"></i> SSM Institute of Engineering and Technology</p>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Dindigul, Tamil Nadu</p>
+                    <p class="department"><i class="fas fa-bolt"></i> Electrical and Electronics Engineering</p>
+                    <p class="duration"><i class="fas fa-calendar-alt"></i> 2021 - 2025</p>
+                    <div class="education-highlights">
+                        <p class="cgpa"><i class="fas fa-star"></i> CGPA: 7.7* / 10</p>
+                        <p class="achievement"><i class="fas fa-award"></i> No History of Arrears</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Section -->
+    <section id="internship" class="internship">
+        <h2 class="section-title"><pre>Internship Experience</pre></h2>
+        <div class="internship-container">
+            <div class="internship-card sharingan-card scroll-fade-up">
+                <div class="internship-badge"></div>
+                <h3>FULL STACK WEB DEVELOPMENT COURSE</h3><br>
+                <div class="internship-details">
+                    <p class="company"><i class="fas fa-building"></i> TAP Academy,BTM 2nd Stage, Bengaluru.</p>
+                    <p class="internship-type"><i class="fas fa-graduation-cap"></i> C2C Internship</p>
+                    <div class="internship-description">
+                        <p>Completed "FULLSTACK WEB DEVELOPMENT COURSE" as C2C internship in Tap Academy, gained Hands-on experience in Front-end technologies like (HTML, CSS) along with Database management using MySQL.</p>
+                        <p>Created a portfolio website using HTML, CSS.</p>
+                        <p>Created a food-delivery website using using the DAO design
+                            pattern, JDBC, Servlets, JSP, and deployed it on Apache
+                            Tomcat Server with a MySQL database as the backend.</p>
+                    </div>
+                    <div class="internship-skills">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">Core Java</span>
+                        <span class="skill-tag">Advanced Java</span>
+                        <span class="skill-tag">MySQL</span>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Accomplished Missions</h2>
+        <div class="mission-intro scroll-fade-up">
+            <p>Each project represents a challenge overcome, much like the trials faced in the path of a shinobi.</p><br>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card ripple-effect scroll-fade-up">
+                <div class="project-info">
+                    <h3>1. Food Delivery Website using [ DAO Design Pattern]</h3>
+                    <p>I developed a food delivery website using the DAO design
+                        pattern, JDBC, Servlets, JSP, and deployed it on Apache
+                        Tomcat Server with a MySQL database as the backend.
+                    </p>
+                    <p>(i) Architecture & Design:
+
+                        Implemented the DAO (Data Access Object) pattern for clean separation of business logic and data persistence.
+                        </p>
+                        <p>(ii) Backend:
+
+                            Built with Java Servlets to handle client requests and responses.
+                            
+                            Used JDBC for database connectivity and CRUD operations.
+                            
+                            Managed user authentication, restaurant management, menu items, and order processing.
+                            </p>
+                            <p>(iii) Frontend: 
+                                Designed user-friendly interfaces with JSP pages for restaurant listings, menus, cart, and order placement.
+                                Implemented dynamic rendering of data from the database.
+
+                            </p>
+                            <p>(iv) Database:
+
+                                Designed and normalized the MySQL database schema with tables for users, restaurants, menu items, and orders.
+                                
+                                Applied foreign key constraints for referential integrity.
+                                 </p>
+                                 <p>
+                                    (v) Deployment:
+                                
+                                Hosted on Apache Tomcat Server for local testing and execution.
+                                 </p>
+                    <div class="project-image">
+                        <img src="portfolio-preview.jpg" alt="Portfolio Preview" onerror="this.style.display='none'">
+                    </div>
+                    <div class="project-highlights">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>User Registration and Login Page</li>
+                            <li>Browse Restaurants and Menus</li>
+                            <li>Add to Cart, Check Out and Place Orders.</li>
+                        </ul>
+                        <h4>Technologies Used:</h4>
+                        <div class="project-tech">
+                            <span class="tech-tag">JDBC</span>
+                            <span class="tech-tag">Servlets</span>
+                            <span class="tech-tag">JSP</span>
+                            <span class="tech-tag">Apache Tomcat Server </span>
+                            <span class="tech-tag">MYSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>2. Mini Project : Personal Portfolio Website</h3>
+                    <p>(i) The site includes a navigation bar (Home, Projects, Skills,
+                        Contact), a profile image, and a prominent “View Resume”
+                        button for easy access. Sections are well-structured to
+                        display skills, projects, and contact details clearly. 
+                    </p>
+                    <p>
+                       (ii) The design
+                        focuses on simplicity, responsiveness, and readability to
+                        create a better user engagement.
+                    </p>
+                    <div class="project-image">
+                        <img src="portfolio-preview.jpg" alt="Portfolio Preview" onerror="this.style.display='none'">
+                    </div>
+                    <div class="project-highlights">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Interactive and Responsive Design</li>
+                            <li>Navigation System and Clean UI</li>
+                            <li>Technical skills Cards and Contact Integration.</li>
+                        </ul>
+                        <h4>Technologies Used:</h4>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <h2 class="section-title">My Resume</h2>
+        <div class="resume-content">
+            <div class="scroll-design">
+                <a href="Manojkumar's Resume.pdf" class="download-btn ripple-effect" download>
+                    <i class="fas fa-scroll"></i>
+                    Download My Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Send a Message Jutsu</h2>
+        <div class="contact-content scroll-fade-up">
+            <div class="contact-intro">
+                <p>Ready to collaborate? Send your message through this special jutsu form:</p><br>
+            </div>
+            <div class="contact-email scroll-fade-up">
+                <a href="mailto:manojkumaradhi369@gmail.com" class="email-link ripple-effect">
+                    <i class="fas fa-envelope"></i>
+                    <span>manojkumaradhi369@gmail.com</span>
+                </a>
+            </div>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="submit-btn ripple-effect">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-design">
+            <div class="uchiha-crest"></div>
+            <div class="footer-content">
+                <p>&copy; 2025 Uchiha Manoj. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="mailto:manojkumaradhi369@gmail.com" class="social-btn" id="mailButton" title="Send Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/manojkumar-adhi/" class="social-btn" id="linkedinButton" target="_blank" title="Visit LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   
+
+    <script src="script.js"></script>
+    <!-- Ripple Effect Script -->
+    <script>
+        document.addEventListener('click', function(e) {
+            if (e.target.classList.contains('ripple-effect')) {
+                const ripple = document.createElement('span');
+                ripple.classList.add('ripple');
+                const rect = e.target.getBoundingClientRect();
+                const size = Math.max(rect.width, rect.height);
+                const x = e.clientX - rect.left - size/2;
+                const y = e.clientY - rect.top - size/2;
+                
+                ripple.style.width = ripple.style.height = size + 'px';
+                ripple.style.left = x + 'px';
+                ripple.style.top = y + 'px';
+                
+                e.target.appendChild(ripple);
+                
+                ripple.addEventListener('animationend', () => {
+                    ripple.remove();
+                });
+            }
+        });
+    </script>
+
+    <!-- Scroll Animation Script -->
+    <script>
+        // Scroll Animation Observer
+        const scrollObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        // Observe all elements with scroll animation classes
+        document.querySelectorAll('.scroll-fade-up, .scroll-fade-left, .scroll-fade-right, .scroll-scale')
+            .forEach(el => scrollObserver.observe(el));
+
+        // Scroll Progress Indicator
+        const scrollProgress = document.createElement('div');
+        scrollProgress.className = 'scroll-progress';
+        document.body.appendChild(scrollProgress);
+
+        window.addEventListener('scroll', () => {
+            const winScroll = document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            scrollProgress.style.transform = `scaleX(${scrolled / 100})`;
+        });
+    </script>
+
+    <!-- AI Assistant Script -->
+    <script>
+        const chatBot = document.querySelector('.chat-bot-container');
+        const chatBotIcon = document.getElementById('chatBotIcon');
+        const chatBox = document.getElementById('chatBox');
+        const closeChatBtn = document.getElementById('closeChatBtn');
+        const sections = document.querySelectorAll('section');
+
+        function toggleChatBox() {
+            chatBox.classList.toggle('active');
+        }
+
+        // Open chat when clicking the AI icon
+        chatBotIcon.addEventListener('click', toggleChatBox);
+
+        // Toggle chat when clicking the navigation link (same behavior as icon)
+        openAILink.addEventListener('click', (e) => {
+            e.preventDefault();
+            toggleChatBox();
+        });
+
+        // Close chat when clicking the close button
+        closeChatBtn.addEventListener('click', () => {
+            chatBox.classList.remove('active');
+        });
+
+        window.addEventListener('scroll', () => {
+            // Section-based color changes
+            const currentSection = Array.from(sections).find(section => {
+                const rect = section.getBoundingClientRect();
+                return rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2;
+            });
+
+            if (currentSection) {
+                // Remove all section classes
+                chatBotIcon.classList.remove('home-section', 'about-section', 'skills-section', 'projects-section', 'contact-section');
+                // Add current section class
+                chatBotIcon.classList.add(currentSection.id + '-section');
+            }
+        });
+    </script>
+</body>
+</html> 
